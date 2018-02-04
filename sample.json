@@ -1,0 +1,44 @@
+{
+  "books" : [ {
+    "author" : "J.K. Rowling",
+    "category" : "Young Adult Fiction",
+    "imageuri" : "https://ewedit.files.wordpress.com/2016/09/hpsorcstone.jpg?w=405",
+    "name" : "Harry Potter and the Sorcerer's Stone",
+    "status" : "R 01302018",
+    "summary" : "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny."
+  }, {
+    "author" : "J.K. Rowling",
+    "category" : "Young Adult Fiction",
+    "imageuri" : "https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL.jpg",
+    "name" : "Harry Potter and the Chamber of Secrets",
+    "status" : "C 012318",
+    "summary" : "The Dursleys were so mean that hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike."
+  }, {
+    "author" : "J.K. Rowling",
+    "category" : "Young Adult Fiction",
+    "imageuri" : "https://images-na.ssl-images-amazon.com/images/I/81lAPl9Fl0L.jpg",
+    "name" : "Harry Potter and the Prisoner of Azkaban",
+    "status" : "O 010318",
+    "summary" : "For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort. Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkban guards heard Black muttering in his sleep, 'He's at Hogwarts...he's at Hogwarts.'"
+  }, {
+    "author" : "Denis Johnson",
+    "category" : "Fiction",
+    "imageuri" : "http://www.syndetics.com/index.aspx?type=xw12&client=sirsi&upc=&oclc=&isbn=9780812988635/LC.JPG",
+    "name" : "The Largesse of The Sea Maiden",
+    "status" : "A",
+    "summary" : "The Largesse of the Sea Maiden is the long-awaited new story collection from Denis Johnson. Written in the luminous prose that made him one of the most beloved and important writers of his generation, this collection finds Johnson in new territory, contemplating the ghosts of the past and the elusive and unexpected ways the mysteries of the universe assert themselves."
+  }],
+  "users" : {
+    "userID" : {
+      "C" : {
+        "1" : ""
+      },
+      "O" : {
+        "2" : ""
+      },
+      "R" : {
+        "0" : ""
+      }
+    }
+  }
+}
