@@ -8,13 +8,13 @@ This is a submission for the FBLA Mobile Application Development event. The app 
 
 ## Frameworks/Libraries Used
 
--[React](https://reactjs.org/) as the base framework for all of the code, a Javascript library for building user interfaces
--[React Native](https://facebook.github.io/react-native/), a framework for using React to build mobile applications 
--[React Native Navigation](https://github.com/wix/react-native-navigation), a solution for handling navigation between various screens of the mobile app
--[Firebase](https://firebase.google.com/): this app uses Firebase's Real Time Database to store information related to books in the library and user checkout/reserve data
--[Mobx and its related React and React Native bindings](https://github.com/mobxjs/mobx) for state management-sharing data between different screens of the app and isolating the backend business logic
--[Moment.js](https://momentjs.com/) to format date information and handle logic relating to durations of reserving and checking out books
--[NativeBase](https://nativebase.io/) as a solution for clean, simple user interface components
+- [React](https://reactjs.org/) as the base framework for all of the code, a Javascript library for building user interfaces
+- [React Native](https://facebook.github.io/react-native/), a framework for using React to build mobile applications 
+- [React Native Navigation](https://github.com/wix/react-native-navigation), a solution for handling navigation between various screens of the mobile app
+- [Firebase](https://firebase.google.com/): this app uses Firebase's Real Time Database to store information related to books in the library and user checkout/reserve data
+- [Mobx and its related React and React Native bindings](https://github.com/mobxjs/mobx) for state management-sharing data between different screens of the app and isolating the backend business logic
+- [Moment.js](https://momentjs.com/) to format date information and handle logic relating to durations of reserving and checking out books
+- [NativeBase](https://nativebase.io/) as a solution for clean, simple user interface components
 
 ## Installation/Use Instructions
 
@@ -51,19 +51,19 @@ The firebase real-time database structure is given in an example file called sam
 
 ## Features
 
--Users can check out and reserve books from the app itself, and the database will automatically update both their account information and the status of the book
--A book automatically goes off of the reserved list, or is updated from being checked out to overdue as days go by
--A map for navigating the school library is provided with icons and helpful labels of genre and Dewey Decimals for nonfiction works
--Users can check their account status on a dedicated page, which has a dedicated section to remind them when books are overdue
--A custom-made app icon that is also integrated into the heading of each screen
--A social media integration feature that shares a link to a Goodreads page for book information with friends/followers upon a user checking out a book or reserving one
--When browsing, each book entry contains a summary, author, and an image to help users
--A robust user authentication system provided by Firebase
+- Users can check out and reserve books from the app itself, and the database will automatically update both their account information and the status of the book
+- A book automatically goes off of the reserved list, or is updated from being checked out to overdue as days go by
+- A map for navigating the school library is provided with icons and helpful labels of genre and Dewey Decimals for nonfiction works
+- Users can check their account status on a dedicated page, which has a dedicated section to remind them when books are overdue
+- A custom-made app icon that is also integrated into the heading of each screen
+- A social media integration feature that shares a link to a Goodreads page for book information with friends/followers upon a user checking out a book or reserving one
+- When browsing, each book entry contains a summary, author, and an image to help users
+- A robust user authentication system provided by Firebase
 
 ## Feature Wishlist
 
--A search feature for users to look up books they are interested in
--More refined navigation with nested navigators and a navigation bar at the bottom of each screen
--Sorting books in alphabetical order for ease of navigation, either by author name or title
--Extra functionality on the home screen-possible a featured book section or some sort of library news bulletin
--Push notifications to remind the user of when books are overdue or nearing the time to return them
+- [ ] A search feature for users to look up books they are interested in
+- [x] More refined navigation with nested navigators
+- [ ] Sorting books in alphabetical order for ease of navigation, either by author name or title
+- [ ] Extra functionality on the home screen-possible a featured book section or some sort of library news bulletin
+- [ ] Push notifications to remind the user of when books are overdue or nearing the time to return them

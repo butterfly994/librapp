@@ -11,32 +11,23 @@ import { Container,
          FooterTab,
          Button,
          Icon,
-         Thumbnail } from 'native-base'
+         Thumbnail,
+         Header,
+         Title } from 'native-base'
 
 export default class EntryPoint extends React.Component {
     static navigationOptions = {
         title: 'TRHS Library Main Page',
-        headerRight: <Thumbnail square source={require('../icon.png')}/>
     };
-
-    handleBrowsePress(){
-        //event handler to navigate the user to a list of all book genres/categories
-        this.props.navigation.navigate('CategoryList')
-    }
-
-    handleAccountPress(){
-        //event handler to navigate the user to a screen showing their account details
-        this.props.navigation.navigate('AccountView')
-    }
-
-    handleMapPress(){
-        //event handler to navigate the user to a screen showing a visual aid for navigating the school library
-        this.props.navigation.navigate('MapView')
-    }
 
     render() {
         return(
             <Container>
+                <Header>
+                    <Body>
+                        <Title>TRHS Library Main Page</Title>
+                    </Body>
+                </Header>
                 <Content>
                     <Card style={{flex: 0}}>
                         <CardItem>
@@ -59,22 +50,6 @@ Let's all make the journey to better literacy together!`
                         </CardItem>
                     </Card>
                 </Content>
-                <Footer>
-                <FooterTab>
-                    <Button vertical onPress={_ => this.handleMapPress()}>
-                        <Icon name='map'/>
-                        <Text>Map</Text>
-                    </Button>
-                    <Button vertical onPress={_ => this.handleBrowsePress()}>
-                        <Icon name='globe'/>
-                        <Text>Browse</Text>
-                    </Button>
-                    <Button vertical onPress={_ => this.handleAccountPress()}>
-                        <Icon name='person'/>
-                        <Text>My Account</Text>
-                    </Button>
-                </FooterTab>
-            </Footer>
             </Container>
         );
     }

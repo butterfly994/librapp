@@ -2,6 +2,7 @@ import React from 'react';
 import { observer, inject } from 'mobx-react/native';
 import { Container,
          Header,
+         Title,
          Content,
          List,
          ListItem,
@@ -14,7 +15,6 @@ import { Container,
 export default class AccountView extends React.Component {
     static navigationOptions ={
         title:'My Account',
-        headerRight: <Thumbnail square source={require('../icon.png')}/>
     };
 
     handleLogOut() {
@@ -26,6 +26,11 @@ export default class AccountView extends React.Component {
     render() {
         return (
             <Container>
+                <Header>
+                    <Body>
+                        <Title>My Account</Title>
+                    </Body>
+                </Header>
                 <Content>
                     <List>
                         <ListItem itemHeader first>
